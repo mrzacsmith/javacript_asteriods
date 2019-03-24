@@ -11,6 +11,15 @@ const matrix = [
     [0,1,0],
 ];
 
+function collide(arena, player) {
+    const [m,o] = [player.matrix, player.pos];
+    for (let y = 0; y < m.length; ++y) {
+        for (let x = 0;) {
+            
+        }
+    }
+}
+
 function createMatrix(w, h) {
     const matrix = [];
     while (h--) {
@@ -90,3 +99,5 @@ document.addEventListener('keydown', event => {
 })
 
 update();
+
+// we made some changes
